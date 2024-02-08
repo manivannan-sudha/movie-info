@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Series/Movie Details | API Basics</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="input">
+            <input type="text" name="" id="searchName" placeholder="Search for a series or a movie">
+            <button onclick="search()">Search</button>
+        </div>
+
+        <div id="content" class="content">
+            <div class="details">
+                <h2 id="title">Home Alone</h2>
+
+                <div class="top">
+                    <span id="year">1990</span>
+                    <span id="runtime">103 min</span>
+                    <span id='type'></span>
+                    <p id="plot">"An eight-year-old troublemaker, mistakenly left home alone, must defend his home against a pair of burglars on Christmas Eve."</p>
+                </div>
+
+                <p>Genre : <span id="genre"></span></p>
+                <p>Language : <span id="language"></span></p>
+                <p>Director : <span id="director"></span></p>
+                <p>Writer : <span id="writer"></span></p>
+                <p>Stars : <span id="stars"></span></p>
+
+                <button class="ratings"> <span id="i-rating"></span></button>
+
+            </div>
+            <img src="https://m.media-amazon.com/images/M/MV5BMzFkM2YwOTQtYzk2Mi00N2VlLWE3NTItN2YwNDg1YmY0ZDNmXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg" id="pic" alt="" class="poster">
+        </div>
+    </div>
+
+    
+    <script src="app.js"></script>
+    
+</body>
+</html>
